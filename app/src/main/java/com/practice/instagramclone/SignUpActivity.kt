@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Html
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.firebase.Firebase
@@ -40,6 +41,9 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        val text = "<font color=#FF000000>Already have an Account</font> <font color=#1E88E5>Login ?</font>"
+        binding.login.setText(Html.fromHtml(text))
+        
         user = User()
         binding.signUpBtn.setOnClickListener {
             if (binding.name.editText?.text.toString().equals("") or
@@ -72,6 +76,9 @@ class SignUpActivity : AppCompatActivity() {
         binding.addImage.setOnClickListener {
             launcher.launch("image/*")
         }
-
+        binding.login.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+        }
     }
 }
