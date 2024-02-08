@@ -52,13 +52,13 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/signUpBtn"
+        android:id="@+id/loginBtn"
         style="@style/Widget.Material3.Button.Icon"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/blue"
-        android:text="Register"
+        android:text="Login"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="@+id/password"
         app:layout_constraintStart_toStartOf="@+id/password"
@@ -75,7 +75,7 @@
         android:textSize="18dp"
         android:shadowColor="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/signUpBtn"
-        app:layout_constraintStart_toStartOf="@+id/signUpBtn" />
+        app:layout_constraintEnd_toEndOf="@+id/loginBtn"
+        app:layout_constraintStart_toStartOf="@+id/loginBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
