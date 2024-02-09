@@ -48,7 +48,7 @@
             app:layout_constraintTop_toBottomOf="@+id/name" />
 
         <Button
-            android:id="@+id/signUpBtn"
+            android:id="@+id/btnEditProfile"
             style="@style/Widget.Material3.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
