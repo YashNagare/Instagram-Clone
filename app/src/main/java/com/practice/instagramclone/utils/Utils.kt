@@ -2,7 +2,6 @@ package com.practice.instagramclone.utils
 
 import android.net.Uri
 import com.google.firebase.storage.FirebaseStorage
-import java.net.URI
 import java.util.UUID
 
 fun uploadImage(uri: Uri, folderName: String, callback: (String?) -> Unit){
