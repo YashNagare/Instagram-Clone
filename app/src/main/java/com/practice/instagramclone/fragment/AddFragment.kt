@@ -17,7 +17,6 @@ class AddFragment : BottomSheetDialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
     }
 
     override fun onCreateView(
@@ -29,6 +28,7 @@ class AddFragment : BottomSheetDialogFragment() {
 
         binding.post.setOnClickListener {
             activity?.startActivity(Intent(requireContext(), PostActivity::class.java))
+            activity?.finish()
         }
 
         binding.reel.setOnClickListener {
