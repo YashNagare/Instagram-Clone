@@ -1,4 +1,4 @@
-# ShoppingList App ✨
+# Instagram Clone ✨
 ![Android-kotlin](https://img.shields.io/badge/Android-Kotlin-blue.svg)
 
 ## Introduction
@@ -7,6 +7,14 @@
 ## Prerequisites
 <li>Android Studio</li>
 <li>Kotlin SDK</li>
+
+## Mobile App Screenshots 📸
+<p float="center">
+  <img src="https://github.com/YashNagare/Instagram-Clone/blob/master/screenshots/Splash%20Screen.png" title="Splash Screen" height="450px" width="225px">
+  <img src="https://github.com/YashNagare/Instagram-Clone/blob/master/screenshots/Login%20Page.png" title="Login Page" height="450px" width="225px">
+  <img src="https://github.com/YashNagare/Instagram-Clone/blob/master/screenshots/Signup%20Page.png" title="Signup Page" height="450px" width="225px">
+  <img src="https://github.com/YashNagare/Instagram-Clone/blob/master/screenshots/New%20Post.png" title="New Post" height="450px" width="225px">
+</p>
 
 ## Libraries Used📚
 <ul>
